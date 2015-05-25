@@ -1,4 +1,4 @@
-# derpa
+# Derpa
 
 Derpa is an interpreter for the Brainfuck language ( http://en.wikipedia.org/wiki/Brainfuck ) written in Clojure. I'm writing Derpa as an exercise for learning Clojure.
 
