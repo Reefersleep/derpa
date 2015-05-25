@@ -23,6 +23,7 @@ There are probably a few bugs to do with unmatched loop braces and <'ing or >'in
 * Create web-app that lets you enter Brainfuck code and see it executed visually
 * (Possibly) make cells endless with some sort of lazy sequence generation
 * (Possibly) write unit-tests :3
+* Figure out licensing? I'm new to publicizing stuff :/
 
 ## License
 
