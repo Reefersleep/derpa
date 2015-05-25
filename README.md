@@ -1,32 +1,28 @@
 # derpa
 
-FIXME: description
+Derpa is an interpreter for the Brainfuck language ( http://en.wikipedia.org/wiki/Brainfuck ) written in Clojure. I'm writing Derpa as an exercise for learning Clojure.
 
-## Installation
-
-Download from http://example.com/FIXME.
+Currently, Derpa is a command-line interpreter, but I am planning to port the code to ClojureScript and hook it up to a simple, interactive web-app, allowing you to enter Brainfuck code on a web page and see it executed. This will be a great opportunity for me to practice ClojureScript and learn about Reagent.
 
 ## Usage
 
-FIXME: explanation
+cd derpa
 
-    $ java -jar derpa-0.1.0-standalone.jar [args]
+lein run "++++++++++[>++++++++++<-]>.+.+++++++++++++.--.---------------."
 
-## Options
-
-FIXME: listing of options this app accepts.
-
-## Examples
-
-...
+(This particular Brainfuck code prints "derpa")
 
 ### Bugs
 
-...
+There are probably a few bugs to do with unmatched loop braces and <'ing or >'ing out of the cells. 
 
-### Any Other Sections
-### That You Think
-### Might be Useful
+### Roadmap
+
+* Clean up code (currently one huge, incomprehensible function)
+* Port to ClojureScript
+* Create web-app that lets you enter Brainfuck code and see it executed visually
+* (Possibly) make cells endless with some sort of lazy sequence generation
+* (Possibly) write unit-tests :3
 
 ## License
 
