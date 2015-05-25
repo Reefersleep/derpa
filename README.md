@@ -6,9 +6,9 @@ Currently, Derpa is a command-line interpreter, but I am planning to port the co
 
 ## Usage
 
-cd derpa
+  cd derpa
 
-lein run "++++++++++[>++++++++++<-]>.+.+++++++++++++.--.---------------."
+  lein run "++++++++++[>++++++++++<-]>.+.+++++++++++++.--.---------------."
 
 (This particular Brainfuck code prints "derpa")
 
