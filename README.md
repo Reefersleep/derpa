@@ -15,6 +15,7 @@ Currently, Derpa is a command-line interpreter, but I am planning to port the co
 ### Bugs
 
 There are probably a few bugs to do with unmatched loop braces and <'ing or >'ing out of the cells. 
+Also, not a bug, but just something weird about the code - the indentation is screwed because of a bug in Vim where the = indentation mechanism just gives in after a big bunch of nested or neighbouring forms. I will be filing a bug report for this Vim problem. 
 
 ### Roadmap
 
