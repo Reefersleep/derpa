@@ -19,8 +19,8 @@ Also, not a bug, but just something weird about the code - the indentation is sc
 
 ### Roadmap
 
-* Clean up code (currently one huge, incomprehensible function)
 * Port to ClojureScript
+* Figure out if main function 'interpret' could be made more idiomatic... and possibly smaller.
 * Create web-app that lets you enter Brainfuck code and see it executed visually
 * (Possibly) make cells endless with some sort of lazy sequence generation
 * (Possibly) write unit-tests :3
